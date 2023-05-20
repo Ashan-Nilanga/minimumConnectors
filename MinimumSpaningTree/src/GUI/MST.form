@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.MST">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="1380" height="937"/>
+    </constraints>
+    <properties>
+      <background color="-29051"/>
+      <minimumSize width="600" height="300"/>
+    </properties>
+    <border type="line" title-resource-bundle="MST" title-key="Title" title-justification="2" title-position="2">
+      <font name="Comic Sans MS" size="28"/>
+      <title-color color="-4259328"/>
+      <color color="-4259328"/>
+    </border>
+    <children>
+      <component id="39d64" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="14" style="2"/>
+          <foreground color="-16777216"/>
+          <text resource-bundle="MST" key="Instruction"/>
+        </properties>
+      </component>
+      <component id="f7227" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="14" style="2"/>
+          <foreground color="-16777216"/>
+          <text resource-bundle="MST" key="InstructionNote"/>
+        </properties>
+      </component>
+      <grid id="5d3f4" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-29051"/>
+        </properties>
+        <border type="empty">
+          <font name="Comic Sans MS" size="12"/>
+          <title-color color="-16777216"/>
+        </border>
+        <children>
+          <scrollpane id="13c1a">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="1000" height="-1"/>
+                <preferred-size width="453" height="256"/>
+                <maximum-size width="-1" height="209"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-2996130"/>
+              <font name="Arial" size="14"/>
+              <foreground color="-16777216"/>
+              <horizontalScrollBarPolicy value="31"/>
+              <verticalScrollBarPolicy value="21"/>
+            </properties>
+            <border type="empty" title-resource-bundle="MST" title-key="InfoTable" title-justification="2">
+              <font name="Comic Sans MS" size="14"/>
+              <title-color color="-16777216"/>
+            </border>
+            <children>
+              <component id="1863c" class="javax.swing.JTable" binding="distance_table">
+                <constraints/>
+                <properties>
+                  <background color="-6339504"/>
+                  <dropMode value="USE_SELECTION"/>
+                  <enabled value="false"/>
+                  <font name="Comic Sans MS" size="12"/>
+                  <foreground color="-16777216"/>
+                  <gridColor color="-16777216"/>
+                  <selectionBackground color="-15422521"/>
+                  <selectionForeground color="-16777216"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <grid id="f2fa5" layout-manager="GridLayoutManager" row-count="13" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="1" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-29051"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <vspacer id="9b98f">
+                <constraints>
+                  <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <vspacer id="2a62">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <grid id="dbde4" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="10" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-29051"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="8ee6e" class="javax.swing.JComboBox" binding="l1_2">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="60" height="-1"/>
+                        <maximum-size width="60" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2996130"/>
+                      <foreground color="-16777216"/>
+                      <model>
+                        <item value="A"/>
+                        <item value="B"/>
+                        <item value="C"/>
+                        <item value="D"/>
+                        <item value="E"/>
+                        <item value="F"/>
+                        <item value="G"/>
+                        <item value="H"/>
+                        <item value="I"/>
+                        <item value="J"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="b1667" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-20630"/>
+                      <font name="Arial Rounded MT Bold" size="14"/>
+                      <foreground color="-10671344"/>
+                      <text resource-bundle="MST" key="Link1"/>
+                    </properties>
+                  </component>
+                  <hspacer id="5f43d">
+                    <constraints>
+                      <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="a4b31" class="javax.swing.JComboBox" binding="l1_1">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="60" height="-1"/>
+                        <maximum-size width="60" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2996130"/>
+                      <foreground color="-16777216"/>
+                      <model>
+                        <item value="A"/>
+                        <item value="B"/>
+                        <item value="C"/>
+                        <item value="D"/>
+                        <item value="E"/>
+                        <item value="F"/>
+                        <item value="G"/>
+                        <item value="H"/>
+                        <item value="I"/>
+                        <item value="J"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <hspacer id="9f691">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                </children>
+              </grid>
+              <grid id="81455" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="20" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-29051"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="2b95" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="120" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-29051"/>
+                      <font name="Comic Sans MS" size="14" style="1"/>
+                      <foreground color="-16777216"/>
+                      <text resource-bundle="MST" key="Connectors"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="de127" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="10" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-29051"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="41f6d" class="javax.swing.JComboBox" binding="l2_2">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="60" height="-1"/>
+                        <maximum-size width="60" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2996130"/>
+                      <foreground color="-16777216"/>
+                      <model>
+                        <item value="A"/>
+                        <item value="B"/>
+                        <item value="C"/>
+                        <item value="D"/>
+                        <item value="E"/>
+                        <item value="F"/>
+                        <item value="G"/>
+                        <item value="H"/>
+                        <item value="I"/>
+                        <item value="J"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="a17ac" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-20630"/>
+                      <font name="Arial Rounded MT Bold" size="14"/>
+                      <foreground color="-10671344"/>
+                      <text resource-bundle="MST" key="Link2"/>
+                    </properties>
+                  </component>
+                  <hspacer id="caa41">
+                    <constraints>
+                      <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="2c64b" class="javax.swing.JComboBox" binding="l2_1">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="60" height="-1"/>
+                        <maximum-size width="60" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2996130"/>
+                      <foreground color="-16777216"/>
+                      <model>
+                        <item value="A"/>
+                        <item value="B"/>
+                        <item value="C"/>
+                        <item value="D"/>
+                        <item value="E"/>
+                        <item value="F"/>
+                        <item value="G"/>
+                        <item value="H"/>
+                        <item value="I"/>
+                        <item value="J"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <hspacer id="edadf">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                </children>
+              </grid>
+              <grid id="30ea7" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="10" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-29051"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="e2d0c" class="javax.swing.JComboBox" binding="l3_2">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="60" height="-1"/>
+                        <maximum-size width="60" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2996130"/>
+                      <foreground color="-16777216"/>
+                      <model>
+                        <item value="A"/>
+                        <item value="B"/>
+                        <item value="C"/>
+                        <item value="D"/>
+                        <item value="E"/>
+                        <item value="F"/>
+                        <item value="G"/>
+                        <item value="H"/>
+                        <item value="I"/>
+                        <item value="J"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="afcaf" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-20630"/>
+                      <font name="Arial Rounded MT Bold" size="14"/>
+                      <foreground color="-10671344"/>
+                      <text resource-bundle="MST" key="Link3"/>
+                    </properties>
+                  </component>
+                  <hspacer id="1e198">
+                    <constraints>
+                      <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="971be" class="javax.swing.JComboBox" binding="l3_1">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="60" height="-1"/>
+                        <maximum-size width="60" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2996130"/>
+                      <foreground color="-16777216"/>
+                      <model>
+                        <item value="A"/>
+                        <item value="B"/>
+                        <item value="C"/>
+                        <item value="D"/>
+                        <item value="E"/>
+                        <item value="F"/>
+                        <item value="G"/>
+                        <item value="H"/>
+                        <item value="I"/>
+                        <item value="J"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <hspacer id="51c17">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                </children>
+              </grid>
+              <grid id="dded1" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="10" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-29051"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="782cf" class="javax.swing.JComboBox" binding="l4_2">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="60" height="-1"/>
+                        <maximum-size width="60" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2996130"/>
+                      <foreground color="-16777216"/>
+                      <model>
+                        <item value="A"/>
+                        <item value="B"/>
+                        <item value="C"/>
+                        <item value="D"/>
+                        <item value="E"/>
+                        <item value="F"/>
+                        <item value="G"/>
+                        <item value="H"/>
+                        <item value="I"/>
+                        <item value="J"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="dc4b0" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-20630"/>
+                      <font name="Arial Rounded MT Bold" size="14"/>
+                      <foreground color="-10671344"/>
+                      <text resource-bundle="MST" key="Link4"/>
+                    </properties>
+                  </component>
+                  <hspacer id="ec211">
+                    <constraints>
+                      <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="5eefa" class="javax.swing.JComboBox" binding="l4_1">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="60" height="-1"/>
+                        <maximum-size width="60" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2996130"/>
+                      <foreground color="-16777216"/>
+                      <model>
+                        <item value="A"/>
+                        <item value="B"/>
+                        <item value="C"/>
+                        <item value="D"/>
+                        <item value="E"/>
+                        <item value="F"/>
+                        <item value="G"/>
+                        <item value="H"/>
+                        <item value="I"/>
+                        <item value="J"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <hspacer id="8b9c7">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                </children>
+              </grid>
+              <grid id="960a6" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="10" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-29051"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="32785" class="javax.swing.JComboBox" binding="l5_2">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="60" height="-1"/>
+                        <maximum-size width="60" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2996130"/>
+                      <foreground color="-16777216"/>
+                      <model>
+                        <item value="A"/>
+                        <item value="B"/>
+                        <item value="C"/>
+                        <item value="D"/>
+                        <item value="E"/>
+                        <item value="F"/>
+                        <item value="G"/>
+                        <item value="H"/>
+                        <item value="I"/>
+                        <item value="J"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="f1579" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-20630"/>
+                      <font name="Arial Rounded MT Bold" size="14"/>
+                      <foreground color="-10671344"/>
+                      <text resource-bundle="MST" key="Link5"/>
+                    </properties>
+                  </component>
+                  <hspacer id="759a3">
+                    <constraints>
+                      <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="a6d5c" class="javax.swing.JComboBox" binding="l5_1">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="60" height="-1"/>
+                        <maximum-size width="60" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2996130"/>
+                      <foreground color="-16777216"/>
+                      <model>
+                        <item value="A"/>
+                        <item value="B"/>
+                        <item value="C"/>
+                        <item value="D"/>
+                        <item value="E"/>
+                        <item value="F"/>
+                        <item value="G"/>
+                        <item value="H"/>
+                        <item value="I"/>
+                        <item value="J"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <hspacer id="ca33f">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                </children>
+              </grid>
+              <grid id="ee5b7" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="10" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-29051"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="61569" class="javax.swing.JComboBox" binding="l6_2">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="60" height="-1"/>
+                        <maximum-size width="60" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2996130"/>
+                      <foreground color="-16777216"/>
+                      <model>
+                        <item value="A"/>
+                        <item value="B"/>
+                        <item value="C"/>
+                        <item value="D"/>
+                        <item value="E"/>
+                        <item value="F"/>
+                        <item value="G"/>
+                        <item value="H"/>
+                        <item value="I"/>
+                        <item value="J"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="3dda8" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-20630"/>
+                      <font name="Arial Rounded MT Bold" size="14"/>
+                      <foreground color="-10671344"/>
+                      <text resource-bundle="MST" key="Link6"/>
+                    </properties>
+                  </component>
+                  <hspacer id="b9537">
+                    <constraints>
+                      <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="ac744" class="javax.swing.JComboBox" binding="l6_1">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="60" height="-1"/>
+                        <maximum-size width="60" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2996130"/>
+                      <foreground color="-16777216"/>
+                      <model>
+                        <item value="A"/>
+                        <item value="B"/>
+                        <item value="C"/>
+                        <item value="D"/>
+                        <item value="E"/>
+                        <item value="F"/>
+                        <item value="G"/>
+                        <item value="H"/>
+                        <item value="I"/>
+                        <item value="J"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <hspacer id="d43c7">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                </children>
+              </grid>
+              <grid id="914db" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="10" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-29051"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="7c92" class="javax.swing.JComboBox" binding="l7_2">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="60" height="-1"/>
+                        <maximum-size width="60" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2996130"/>
+                      <foreground color="-16777216"/>
+                      <model>
+                        <item value="A"/>
+                        <item value="B"/>
+                        <item value="C"/>
+                        <item value="D"/>
+                        <item value="E"/>
+                        <item value="F"/>
+                        <item value="G"/>
+                        <item value="H"/>
+                        <item value="I"/>
+                        <item value="J"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="203c" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-20630"/>
+                      <font name="Arial Rounded MT Bold" size="14"/>
+                      <foreground color="-10671344"/>
+                      <text resource-bundle="MST" key="Link7"/>
+                    </properties>
+                  </component>
+                  <hspacer id="c16ff">
+                    <constraints>
+                      <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="48f1b" class="javax.swing.JComboBox" binding="l7_1">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="60" height="-1"/>
+                        <maximum-size width="60" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2996130"/>
+                      <foreground color="-16777216"/>
+                      <model>
+                        <item value="A"/>
+                        <item value="B"/>
+                        <item value="C"/>
+                        <item value="D"/>
+                        <item value="E"/>
+                        <item value="F"/>
+                        <item value="G"/>
+                        <item value="H"/>
+                        <item value="I"/>
+                        <item value="J"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <hspacer id="2a9a6">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                </children>
+              </grid>
+              <grid id="c20b5" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="10" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-29051"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="f7b5" class="javax.swing.JComboBox" binding="l8_2">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="60" height="-1"/>
+                        <maximum-size width="60" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2996130"/>
+                      <foreground color="-16777216"/>
+                      <model>
+                        <item value="A"/>
+                        <item value="B"/>
+                        <item value="C"/>
+                        <item value="D"/>
+                        <item value="E"/>
+                        <item value="F"/>
+                        <item value="G"/>
+                        <item value="H"/>
+                        <item value="I"/>
+                        <item value="J"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="27113" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-20630"/>
+                      <font name="Arial Rounded MT Bold" size="14"/>
+                      <foreground color="-10671344"/>
+                      <text resource-bundle="MST" key="Link8"/>
+                    </properties>
+                  </component>
+                  <hspacer id="6dc4a">
+                    <constraints>
+                      <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="5c472" class="javax.swing.JComboBox" binding="l8_1">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="60" height="-1"/>
+                        <maximum-size width="60" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2996130"/>
+                      <foreground color="-16777216"/>
+                      <model>
+                        <item value="A"/>
+                        <item value="B"/>
+                        <item value="C"/>
+                        <item value="D"/>
+                        <item value="E"/>
+                        <item value="F"/>
+                        <item value="G"/>
+                        <item value="H"/>
+                        <item value="I"/>
+                        <item value="J"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <hspacer id="9450">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                </children>
+              </grid>
+              <grid id="e781e" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="10" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-29051"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="b4d43" class="javax.swing.JComboBox" binding="l9_2">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="60" height="-1"/>
+                        <maximum-size width="60" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2996130"/>
+                      <foreground color="-16777216"/>
+                      <model>
+                        <item value="A"/>
+                        <item value="B"/>
+                        <item value="C"/>
+                        <item value="D"/>
+                        <item value="E"/>
+                        <item value="F"/>
+                        <item value="G"/>
+                        <item value="H"/>
+                        <item value="I"/>
+                        <item value="J"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="b5b3c" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-20630"/>
+                      <font name="Arial Rounded MT Bold" size="14"/>
+                      <foreground color="-10671344"/>
+                      <text resource-bundle="MST" key="Link9"/>
+                    </properties>
+                  </component>
+                  <hspacer id="8e208">
+                    <constraints>
+                      <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="3115" class="javax.swing.JComboBox" binding="l9_1">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="60" height="-1"/>
+                        <maximum-size width="60" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2996130"/>
+                      <foreground color="-16777216"/>
+                      <model>
+                        <item value="A"/>
+                        <item value="B"/>
+                        <item value="C"/>
+                        <item value="D"/>
+                        <item value="E"/>
+                        <item value="F"/>
+                        <item value="G"/>
+                        <item value="H"/>
+                        <item value="I"/>
+                        <item value="J"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <hspacer id="5e75f">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                </children>
+              </grid>
+              <grid id="3b23d" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="10" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-29051"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="5fb65" class="javax.swing.JTextField" binding="min_distance">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="175" height="-1"/>
+                        <preferred-size width="200" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2996130"/>
+                    </properties>
+                  </component>
+                  <component id="f567b" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="100" height="-1"/>
+                        <maximum-size width="110" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-29051"/>
+                      <font name="Comic Sans MS" size="12"/>
+                      <foreground color="-16777216"/>
+                      <labelFor value="5fb65"/>
+                      <text resource-bundle="MST" key="MinimumDistance"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="4c06d" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="20" right="0"/>
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-29051"/>
+              <foreground color="-7601664"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="c8c0e" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Comic Sans MS" size="14" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text resource-bundle="MST" key="RootLabelForGraph"/>
+                </properties>
+              </component>
+              <component id="b26bb" class="javax.swing.JLabel" binding="start_city_lb">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Comic Sans MS" size="14" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="City A"/>
+                </properties>
+              </component>
+              <hspacer id="38dda">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+            </children>
+          </grid>
+          <grid id="8f2e9" layout-manager="GridLayoutManager" row-count="9" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="474" height="169"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-29051"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="d5e63" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Comic Sans MS" size="12" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text resource-bundle="MST" key="InputInstructionTitle"/>
+                </properties>
+              </component>
+              <vspacer id="187d7">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="8d003" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Comic Sans MS" size="12"/>
+                  <foreground color="-16777216"/>
+                  <text resource-bundle="MST" key="InstLine1"/>
+                </properties>
+              </component>
+              <component id="7be34" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Comic Sans MS" size="12"/>
+                  <foreground color="-16777216"/>
+                  <text resource-bundle="MST" key="InstLine2"/>
+                </properties>
+              </component>
+              <component id="255ef" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Comic Sans MS" size="12"/>
+                  <foreground color="-16777216"/>
+                  <text resource-bundle="MST" key="InstLine3"/>
+                </properties>
+              </component>
+              <component id="86f4e" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Comic Sans MS" size="12"/>
+                  <foreground color="-16777216"/>
+                  <text resource-bundle="MST" key="InstLine4"/>
+                </properties>
+              </component>
+              <component id="554fc" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Comic Sans MS" size="12"/>
+                  <foreground color="-16777216"/>
+                  <text resource-bundle="MST" key="InstLine5"/>
+                </properties>
+              </component>
+              <grid id="5555f" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="20" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-29051"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="5685a" class="javax.swing.JButton" binding="button_main">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <minimum-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2996130"/>
+                      <font/>
+                      <foreground color="-16777216"/>
+                      <text resource-bundle="MST" key="CheckAnswers"/>
+                    </properties>
+                  </component>
+                  <hspacer id="c4cdb">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="dbc4b" class="javax.swing.JButton" binding="button_restart">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <minimum-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2996130"/>
+                      <font swing-font="Button.font"/>
+                      <foreground color="-16777216"/>
+                      <text resource-bundle="MST" key="Restart"/>
+                    </properties>
+                  </component>
+                  <hspacer id="21457">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                </children>
+              </grid>
+              <vspacer id="95137">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <hspacer id="3fa2c">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="3549f">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="f4b6c">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="113db">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
